@@ -1,4 +1,3 @@
-/* From Uiverse.io by gamerx151 */ 
 .tooltip-container {
     background: rgb(3, 169, 244);
     background: linear-gradient(138deg, rgb(0, 0, 0) 15%, rgb(0, 31, 46) 65%);
@@ -21,6 +20,7 @@
     fill: #fff;
     transition: all 0.2s;
   }
+
   .tooltip-container:hover .text {
     fill: rgb(0, 0, 0);
     transition: all 0.9s;
@@ -30,7 +30,8 @@
   /*INICIO DA ALTTERAÇão DE LOGOS*/
   .tooltip1 {
     position: absolute;
-    left: 10%;
+    top: 10px;
+    left: 80px;
     transform: translateX(-50%);
     opacity: 0;
     visibility: hidden;
@@ -39,7 +40,7 @@
     padding: 10px;
     border-radius: 50px;
     transition: opacity 0.3s, visibility 0.3s, top 0.3s, background 0.3s;
-    z-index: 1;
+    z-index: -1px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
   }
   
@@ -64,7 +65,8 @@
   /* Inicio do tooltip facebook */
   .tooltip2 {
     position: absolute;
-    left: 10%;
+    top: 10px;
+    left: 120px;
     transform: translateX(-50%);
     opacity: 0;
     visibility: hidden;
@@ -99,7 +101,8 @@
   /* Inicio do tooltip whatsApp */
   .tooltip3 {
     position: absolute;
-    left: 60%;
+    top: 10px;
+    left: 110px;
     transform: translateX(80%);
     opacity: 0;
     visibility: hidden;
@@ -133,7 +136,8 @@
   /* Inicio do tooltip Discord */
   .tooltip4 {
     position: absolute;
-    left: 1%;
+    top: 10px;
+    left: 160px;
     transform: translateX(70%);
     opacity: 0;
     visibility: hidden;
@@ -167,7 +171,8 @@
   /* Inicio do tooltip pinterest */
   .tooltip5 {
     position: absolute;
-    left: 50%;
+    top: 10px;
+    left: 200px;
     transform: translateX(70%);
     opacity: 0;
     visibility: hidden;
@@ -201,8 +206,8 @@
   /* Inicio do tooltip dribbble */
   .tooltip6 {
     position: absolute;
-    top: 100%;
-    left: 35%;
+    top: 10px;
+    left: 240px;
     transform: translateX(70%);
     opacity: 0;
     visibility: hidden;
@@ -305,9 +310,10 @@
   
   /* Inicio do tooltip fixo */
   .tooltip9 {
+  
     position: absolute;
-    top:0px;
-    left: 0px;
+    top:1px;
+    left: 5px;
     opacity: 0;
     visibility: hidden;
     width: 150px;
@@ -316,6 +322,7 @@
   }
   
   .tooltip-container:hover .tooltip9 {
+    
     top: 10px;
     left:400px ;
     opacity: 1;
@@ -323,4 +330,5 @@
     border-radius: 50%;
     z-index: -1;
   }
-  
+
+
